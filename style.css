@@ -1,0 +1,208 @@
+
+:root {
+    /* MAIN ROOT ONLY */
+    font-size: 16px;
+    --transition-speed: 250ms ease;
+    /* Main Backgrounds (x1) */
+    --main-body-color: rgb(28, 28, 30);     
+    /* Button Backgrounds (x2) */
+    --main-button-color: rgb(44, 44, 46);
+    --main-nav-color: rgb(44, 44, 46);
+    --hover-button-color: rgb(60,60,60);
+    --hover-nav-color: rgb(60,60,60);
+    /* shadow Colors (x3) */
+    --main-shadow-color: 0px 0px 15px rgba(17, 17, 18, 0.9);
+    --navbar-box-shadow:  
+        rgb(0, 0, 0) 12px 12px 15px,
+        rgb(0, 0, 0) 12px 12px -15px, 
+        rgb(0, 0, 0) 12px -12px 15px, 
+        rgb(0, 0, 0) 12px -12px -15px;
+    --nav-link-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.56);
+    /* Border Colors (x2) */
+    --main-border-color:rgb(107, 107, 107);
+    --hover-border-color: rgba(39, 113, 240, 0.9);
+    /* Border Divider (x2) */
+    --main-divider: 2px solid #bbb;
+    /* Text Colors (x6) */
+    --hover-box-text-color: rgb(209, 209, 209);
+    --main-h1-color: #e6e6e6; 
+    --main-h2-color: #d4d4d4; 
+    --main-a-color: rgb(218, 218, 218); 
+    --main-p-color: rgb(177, 177, 177); 
+    --fa-secondary-colour:  rgb(184, 184, 184);;
+}
+*, *::before, *::after {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-family: "Helvetica neue", sans-serif;
+    scroll-behavior: smooth;
+}
+html,body {
+    margin: 0;
+    width: 100%;
+}
+body {
+    color: var(--main-p-color);
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-body-color);
+    padding-bottom: 20px;
+}
+.navbar {
+    user-select: none;
+    z-index: 10;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #EAEAEB;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    top: 0px;
+    box-shadow: 5px 5px 10px rgba(0,0,.7);
+}
+.navbar label {
+    font-size: 70px;
+    color: rgb(175, 175, 175);
+    font-size: 26px;
+    display: none;
+    width: 30px;
+    float: right;
+}
+.icon-button {
+    user-select: none;
+    cursor: pointer;
+}
+.menu {
+    user-select: none;
+    cursor:default;
+    margin:0 0px 0 0; 
+}
+.menu a {
+    cursor: pointer;
+    user-select: none;
+    clear: right;
+    background-color: black;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(175, 175, 175);
+    margin: 0 0 0 0;
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a.menu-active {
+    color: red;
+}
+.navbar label {
+    font-size: 70px;
+    color: rgb(175, 175, 175);
+    font-size: 26px;
+    display: none;
+    width: 30px;
+    float: right;
+}
+#toggle {
+    display: none;
+}
+.after-navbar {
+    padding-top: 70px;
+}
+.main {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+}
+@media (max-width: 700px) {
+    .navbar label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        box-shadow: 5px 5px 10px rgba(0,0,.7);
+    }
+    .menu a {
+        border-bottom: 1px solid #131313;
+        text-decoration: none;
+        display: block;
+        height: 50px;
+        color: rgb(175, 175, 175);
+        margin: 0;
+        background-color: black;
+    }
+    a.menu-active {
+        color: red;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+}
+.post {
+    background-color: var(--main-button-color);
+    border-radius: 15px;
+    border: 2px solid var(--main-border-color);
+    padding: 15px;
+    margin: 15px;
+    box-shadow: var(--main-shadow-color);
+}
+.post_user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.post_user p {
+    display: inline-block;
+}
+.post_user img {
+    border-radius: 50%;
+    border: 2px solid var(--main-border-color);
+    display: inline-block;
+}
+.post__user_username {
+    padding: 10px;
+}
+.post__user_displayname {
+    padding: 10px;
+}
+.post_user_pfp {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    border: 5px;
+    /* inline with p */
+    margin-left: 10px;
+    display: block;
+}
+.post_content {
+
+}
+.post_info {
+
+}
+.post_info_replies {
+
+}
+.post_info_quotes {
+    
+}
+.post_info_likes {
+    
+}
+.post_info_likes_glif {
+
+}
+.post_info_likes_amount {
+    
+}
+.post_info_timestamp {
+    
+}
+.post_replies {
+
+}

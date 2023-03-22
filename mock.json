@@ -1,0 +1,207 @@
+{
+    "users" : [
+        {
+			"userID": 1,
+			"displayName": "John Doe",
+			"username": "john",
+			"bio": "I am a student",
+			"status": "active",
+			"timestamp": 1647916800,
+			"pfp": "https://picsum.photos/200/300",
+			"theme": {
+				"colour": "#2C3E50",
+				"text color": "#FFFFFF"
+			}
+        },
+        {
+			"userID": 2,
+			"displayName": "Emily James",
+			"username": "emily",
+			"bio": "I love photography",
+			"status": "inactive",
+			"timestamp": 1647945600,
+			"pfp": "https://loremflickr.com/640/480/cat",
+			"theme": {
+				"colour": "#85929E",
+				"text color": "#FFFFFF"
+			}
+        },
+        {
+			"userID": 3,
+			"displayName": "Mike Doe",
+			"username": "mike",
+			"bio": "I like sports",
+			"status": "active",
+			"timestamp": 1648003200,
+			"pfp": "https://source.unsplash.com/random/800x600",
+			"theme": {
+				"colour": "#EC7063",
+				"text color": "#FFFFFF"
+			}		
+        },
+		{
+			"userID": 4,
+			"displayName": "Sarah Hike",
+			"username": "sarah",
+			"bio": "I enjoy hiking",
+			"status": "active",
+			"timestamp": 1648017600,
+			"pfp": "https://placeimg.com/640/480/animals",
+			"theme": {
+				"colour": "#1ABC9C",
+				"text color": "#FFFFFF"
+			}
+        },
+        {
+			"userID": 5,
+			"displayName": "David Musi",
+			"username": "david",
+			"bio": "I am a musician",
+			"status": "active",
+			"timestamp": 1648032000,
+			"pfp": "https://placeimg.com/640/480/people",
+			"theme": {
+				"colour": "#9B59B6",
+				"text color": "#FFFFFF"
+			}
+        },
+        {
+			"userID": 6,
+			"displayName": "Rachel Smith",
+			"username": "rachel",
+			"bio": "I am a teacher",
+			"status": "inactive",
+			"timestamp": 1648046400,
+			"pfp": "https://picsum.photos/seed/picsum/200/300",
+			"theme": {
+				"colour": "#F1C40F",
+				"text color": "#000000"
+			}
+        },
+        {
+			"userID": 7,
+			"displayName": "Tom Smith",
+			"username": "tom",
+			"bio": "I like to travel",
+			"status": "active",
+			"timestamp": 1648089600,
+			"pfp": "https://loremflickr.com/800/600/nature",
+			"theme": {
+				"colour": "#E74C3C",
+				"text color": "#FFFFFF"
+			}
+        },
+        {
+			"userID": 8,
+			"displayName": "Linda Jones",
+			"username": "linda",
+			"bio": "I am a writer",
+			"status": "inactive",
+			"timestamp": 1648104000,
+			"pfp": "https://source.unsplash.com/featured/800x600/?nature",
+			"theme": {
+				"colour": "#2ECC71",
+				"text color": "#FFFFFF"
+			}
+
+        }
+    ],      
+    "posts" :[  
+        {
+            "postID": 1,
+            "userID": 1,
+            "title": "My first post",
+            "content": "This is my first post",
+            "timestamp": 1647916800,
+            "likeCount": 5,
+            "replyCount": 2,
+            "replyIDs": [2, 3]
+        },
+        {
+            "postID": 2,
+            "userID": 1,
+            "title": "Second post",
+            "content": "This is my second post",
+            "timestamp": 1647931200,
+            "likeCount": 10,
+            "replyCount": 3,
+            "replyIDs": [4, 5, 6],
+			"attachments": [
+				"https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4"
+			]			
+        },
+        {
+            "postID": 3,
+            "userID": 2,
+            "title": "Hello world",
+            "content": "Hello world, this is my first post",
+            "timestamp": 1647945600,
+            "likeCount": 3,
+            "replyCount": 0,
+            "replyIDs": []
+        },
+        {
+            "postID": 4,
+            "userID": 2,
+            "title": "Post number four",
+            "content": "This is my fourth post",
+            "timestamp": 1647988800,
+            "likeCount": 7,
+            "replyCount": 1,
+            "replyIDs": [7],
+			"attachments": [
+				"https://i.picsum.photos/id/237/200/300.jpg"
+			]
+        },
+        {
+            "postID": 5,
+            "userID": 3,
+            "title": "New post",
+            "content": "Check out my new post",
+            "timestamp": 1648003200,
+            "likeCount": 2,
+            "replyCount": 0,
+            "replyIDs": [],
+			"attachments": [
+				"https://cdn.pixabay.com/photo/2022/02/03/08/56/woman-6948805_960_720.jpg",
+				"https://www.w3schools.com/html/mov_bbb.mp4",
+				"https://i.picsum.photos/id/1005/5760/3840.jpg"
+			]			
+        },
+        {
+            "postID": 6,
+            "userID": 4,
+            "title": "My latest post",
+            "content": "This is my latest post",
+            "timestamp": 1648017600,
+            "likeCount": 8,
+            "replyCount": 2,
+            "replyIDs": [8, 9]
+        },
+        {
+            "postID": 7,
+            "userID": 5,
+            "title": "My thoughts on the weather",
+            "content": "It's been really hot lately",
+            "timestamp": 1648032000,
+            "likeCount": 4,
+            "replyCount": 0,
+            "replyIDs": []
+        },
+        {
+            "postID": 8,
+            "userID": 6,
+            "title": "Some random post",
+            "content": "Just felt like writing something random",
+            "timestamp": 1648046400,
+            "likeCount": 1,
+            "replyCount": 1,
+            "replyIDs": [10],
+			"attachments": [
+				"https://loremflickr.com/640/480/dog",
+				"https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4",
+				"https://picsum.photos/seed/picsum/500/500"
+			]			
+        }
+    ]
+}
