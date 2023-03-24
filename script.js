@@ -89,18 +89,32 @@ function postElement(postID) {
                     <p class="post_user_username">@${userData.username}</p>
                 </div>
             </div>
-            <div id="attachment-container">
-                attachments
-            </div>
+            ${postData.attachments? 
+                `
+                    <div id="attachment-container">
+                        ${postData.attachments.length} attachments
+                    </div>
+                ` : ``
+            }
             <div id="content-container">
-                content
+                ${postData.content}
             </div>
             <div id="info-container">
-                info
+                <div id="primary-info">
+                    <span class="material-symbols-outlined">reply</span>
+                    <span class="material-symbols-outlined">format_quote</span>
+                    <span class="material-symbols-outlined">top_panel_open</span>
+                    <span class="material-symbols-outlined">favorite</span>
+                    <span>${postData.timestamp}</span>
+                    </div>
+                <div id="secondary-info">
+                </div>
             </div>
-            <div id="replies-container">
-                replies
+            ${postData.replies?
+            `
+            <div id="reply-container">
             </div>
+            ` : ``}
         </div>
     `
         /*

@@ -12,8 +12,7 @@
 				"colour": "#2C3E50",
 				"text color": "#FFFFFF"
 			}
-        },
-        {
+        }, {
 			"userID": 2,
 			"displayName": "Emily James",
 			"username": "emily",
@@ -25,8 +24,7 @@
 				"colour": "#85929E",
 				"text color": "#FFFFFF"
 			}
-        },
-        {
+        }, {
 			"userID": 3,
 			"displayName": "Mike Doe",
 			"username": "mike",
@@ -38,8 +36,7 @@
 				"colour": "#EC7063",
 				"text color": "#FFFFFF"
 			}		
-        },
-		{
+        }, {
 			"userID": 4,
 			"displayName": "Sarah Hike",
 			"username": "sarah",
@@ -51,8 +48,7 @@
 				"colour": "#1ABC9C",
 				"text color": "#FFFFFF"
 			}
-        },
-        {
+        }, {
 			"userID": 5,
 			"displayName": "David Musi",
 			"username": "david",
@@ -64,8 +60,7 @@
 				"colour": "#9B59B6",
 				"text color": "#FFFFFF"
 			}
-        },
-        {
+        }, {
 			"userID": 6,
 			"displayName": "Rachel Smith",
 			"username": "rachel",
@@ -77,8 +72,7 @@
 				"colour": "#F1C40F",
 				"text color": "#000000"
 			}
-        },
-        {
+        }, {
 			"userID": 7,
 			"displayName": "Tom Smith",
 			"username": "tom",
@@ -90,8 +84,7 @@
 				"colour": "#E74C3C",
 				"text color": "#FFFFFF"
 			}
-        },
-        {
+        }, {
 			"userID": 8,
 			"displayName": "Linda Jones",
 			"username": "linda",
@@ -115,9 +108,8 @@
             "timestamp": 1647916800,
             "likeCount": 5,
             "replyCount": 2,
-            "replyIDs": [2, 3]
-        },
-        {
+            "replies": [2, 3]
+        }, {
             "postID": 2,
             "userID": 1,
             "title": "Second post",
@@ -125,12 +117,11 @@
             "timestamp": 1647931200,
             "likeCount": 10,
             "replyCount": 3,
-            "replyIDs": [4, 5, 6],
+            "replies": [4, 5, 6],
 			"attachments": [
 				"https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4"
 			]			
-        },
-        {
+        }, {
             "postID": 3,
             "userID": 2,
             "title": "Hello world",
@@ -138,9 +129,8 @@
             "timestamp": 1647945600,
             "likeCount": 3,
             "replyCount": 0,
-            "replyIDs": []
-        },
-        {
+            "replies": []
+        }, {
             "postID": 4,
             "userID": 2,
             "title": "Post number four",
@@ -148,12 +138,11 @@
             "timestamp": 1647988800,
             "likeCount": 7,
             "replyCount": 1,
-            "replyIDs": [7],
+            "replies": [7],
 			"attachments": [
 				"https://i.picsum.photos/id/237/200/300.jpg"
 			]
-        },
-        {
+        }, {
             "postID": 5,
             "userID": 3,
             "title": "New post",
@@ -161,14 +150,13 @@
             "timestamp": 1648003200,
             "likeCount": 2,
             "replyCount": 0,
-            "replyIDs": [],
+            "replies": [],
 			"attachments": [
 				"https://cdn.pixabay.com/photo/2022/02/03/08/56/woman-6948805_960_720.jpg",
 				"https://www.w3schools.com/html/mov_bbb.mp4",
 				"https://i.picsum.photos/id/1005/5760/3840.jpg"
 			]			
-        },
-        {
+        }, {
             "postID": 6,
             "userID": 4,
             "title": "My latest post",
@@ -176,9 +164,8 @@
             "timestamp": 1648017600,
             "likeCount": 8,
             "replyCount": 2,
-            "replyIDs": [8, 9]
-        },
-        {
+            "replies": [2, 3]
+        }, {
             "postID": 7,
             "userID": 5,
             "title": "My thoughts on the weather",
@@ -186,9 +173,8 @@
             "timestamp": 1648032000,
             "likeCount": 4,
             "replyCount": 0,
-            "replyIDs": []
-        },
-        {
+            "replies": []
+        }, {
             "postID": 8,
             "userID": 6,
             "title": "Some random post",
@@ -196,12 +182,17 @@
             "timestamp": 1648046400,
             "likeCount": 1,
             "replyCount": 1,
-            "replyIDs": [10],
+            "replies": [7],
 			"attachments": [
 				"https://loremflickr.com/640/480/dog",
 				"https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4",
 				"https://picsum.photos/seed/picsum/500/500"
 			]			
-        }
+        }, {
+			"postID" : 9,
+			"userID" : 1,
+			"originalPostID" : 1,
+			"originalUserID" : 1
+		}
     ]
 }
